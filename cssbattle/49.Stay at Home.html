@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		  body{
+			margin:0;
+			background:#6592CF;
+		  }
+		  *{
+			position:absolute;
+		  }
+		  .tri{
+			width:0;
+			height:0;
+			margin-left:100px;
+			margin-top:50px;
+			border-left:100px solid transparent;
+			border-right:100px solid transparent;
+			border-bottom:100px solid #243D83;
+		  }
+		  .outer-rec{
+			width:150px;
+			height:100px;
+			margin-top:150px;
+			margin-left:125px;
+			background:#243D83;
+			border-bottom-left-radius:10px;
+			border-bottom-right-radius:10px;
+		  }
+		  .inner-rec1{
+			width:100px;
+			height:10px;
+			margin-top:-5px;
+			margin-left:25px;
+			background:#EEB850;
+			border-radius:20px;
+		  }
+		  .inner-rec2{
+			background:#EEB850;
+			width:50px;
+			height:50px;
+			margin-left:50px;
+			margin-top:50px;
+			border-top-left-radius:10px;
+			border-top-right-radius:10px;
+		  }
+		</style>
+	</head>
+	<body>
+		<div class="tri"></div>
+		<div class="outer-rec">
+		  <div class="inner-rec1"></div>
+		  <div class="inner-rec2"></div>
+		</div>
+	</body>
+</html>
